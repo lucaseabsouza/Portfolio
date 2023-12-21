@@ -1,0 +1,78 @@
+ol, ul {
+    list-style: none;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+nav, header, main, footer{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    margin: auto;
+}
+
+h1{
+    margin-left: 5%;
+}
+
+header > a{
+    display: flex;
+}
+
+.img_lucas{
+    margin: auto;
+    padding: 5%;
+    align-self: center;
+    width: 40%;
+}
+
+#sobre_mim , #projetos, #contatos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 5%;
+}
+
+#contatos > a{
+    margin: 0.5%;
+}
+
+#habilidades{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 20% 80%;
+    justify-items: center;
+    justify-content: center;
+    margin: 2%;
+}
+
+.titles{
+    font-size: 200%;
+    color: rgb(255, 255, 255);
+}
+
+.subtitles{
+    margin-bottom: 2%;
+    font-size: 150%;
+    color: #00D061;
+    padding: 5%;
+}
+
+.subtitles:hover{
+    color: rgb(128, 93, 253);
+}
+
+.imgs_projetos{
+    margin-bottom: 1%;
+    width: 80%;
+    align-self: center;
+    border-radius: 2%;
+}
