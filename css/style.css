@@ -34,15 +34,29 @@ header > a{
     width: 40%;
 }
 
-#sobre_mim , #projetos, #contatos{
+#sobre_mim , #projetos{
     display: flex;
     flex-direction: column;
     text-align: center;
     margin: 5%;
 }
 
-#contatos > a{
-    margin: 0.5%;
+#contatos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 5%;
+}
+
+.ico_redes_sociais{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons{
+    margin: 2%;
 }
 
 #habilidades{
@@ -56,18 +70,18 @@ header > a{
 
 .titles{
     font-size: 200%;
-    color: rgb(255, 255, 255);
+    color: #fff;
 }
 
 .subtitles{
     margin-bottom: 2%;
     font-size: 150%;
     color: #00D061;
-    padding: 5%;
+    padding: 1%;
 }
 
 .subtitles:hover{
-    color: rgb(128, 93, 253);
+    color: grey;
 }
 
 .imgs_projetos{
