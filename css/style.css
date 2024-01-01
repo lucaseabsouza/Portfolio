@@ -1,14 +1,31 @@
+/*Compound css*/
+
 ol, ul {
     list-style: none;
+}
+
+nav, header, main, footer{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#about_me , #projects{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 5%;
+}
+
+/*Selectors*/
+
+h1 {
+    margin-left: 5%;
 }
 
 a:link{
     text-decoration: none;
 }
 
-nav, header, main, footer{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+/*Header*/
 
 header{
     display: flex;
@@ -17,10 +34,6 @@ header{
     align-items: center;
     flex-wrap: wrap-reverse;
     margin: auto;
-}
-
-h1{
-    margin-left: 5%;
 }
 
 header > a{
@@ -34,12 +47,7 @@ header > a{
     width: 40%;
 }
 
-#sobre_mim , #projetos{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin: 5%;
-}
+/*Contact Section*/
 
 #contatos{
     display: flex;
@@ -48,7 +56,7 @@ header > a{
     margin: 5%;
 }
 
-.ico_redes_sociais{
+.ico_social_media{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -59,7 +67,9 @@ header > a{
     margin: 2%;
 }
 
-#habilidades{
+/*Skills Section*/
+
+#skills{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 20% 80%;
@@ -67,6 +77,8 @@ header > a{
     justify-content: center;
     margin: 2%;
 }
+
+/*Global*/
 
 .titles{
     font-size: 200%;
@@ -84,7 +96,9 @@ header > a{
     color: grey;
 }
 
-.imgs_projetos{
+/*Projects Section*/
+
+.imgs_projects{
     margin-bottom: 1%;
     width: 80%;
     align-self: center;
