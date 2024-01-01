@@ -37,10 +37,6 @@ header{
     margin: auto;
 }
 
-header > a{
-    display: flex;
-}
-
 .img_lucas{
     margin: auto;
     padding: 5%;
