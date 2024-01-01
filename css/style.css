@@ -1,3 +1,4 @@
+:root{}
 /*Compound css*/
 
 ol, ul {
@@ -8,7 +9,7 @@ nav, header, main, footer{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-#about_me , #projects{
+#about_me , #projects, #contacts{
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -47,14 +48,15 @@ header > a{
     width: 40%;
 }
 
-/*Contact Section*/
-
-#contatos{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin: 5%;
+.subtitle_about_me{
+    margin-bottom: 2%;
+    font-size: 150%;
+    color: #00D061;
+    padding: 1%;
+    text-align: justify;
 }
+
+/*Contact Section*/
 
 .ico_social_media{
     display: flex;
@@ -90,7 +92,6 @@ header > a{
     font-size: 150%;
     color: #00D061;
     padding: 1%;
-    text-align: justify;
 }
 
 .subtitles:hover{
