@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
-<body style="background-color: rgb(10, 6, 24); color: #fff;">
-    <nav class="navbar navbar-light" style="background-color: #00D061; position: sticky; top: 0; left: 0">
+<body style="background-color: var(--ter-color)">
+    <nav class="navbar navbar-dark" style="background-color: var(--main-color); position: sticky; top: 0; left: 0">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Lucas Eduardo</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
@@ -19,10 +19,10 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#about_me">Sobre mim</a>
+                <a class="nav-link active" aria-current="page" href="#title_about_me">Sobre mim</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#skills">Habilidades</a>
+                <a class="nav-link" href="#title_skills">Habilidades</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#projects">Projetos</a>
@@ -32,25 +32,28 @@
         </div>
     </nav>
     <header>
-        <h1>
+        <h1 style="color: var(--sec-color);">
             Oi, sou o
             <br>Lucas Eduardo,<br>
-            <span style="color: #00D061; font-size: 70%;">Desenvolvedor Full Stack Web</span>
+            <span style="color: var(--main-color); font-size: 70%;">Desenvolvedor Full Stack Web</span>
         </h1>
           <img class="rounded-circle img_lucas" src="./img/img_lucas.jpg" alt="Foto de Lucas">
     </header>
     <main>
+      <div id="title_about_me" class="titles" style="text-align: center;">Sobre Mim</div>
             <section id="about_me">
-                <div class="titles">Sobre Mim</div>
-                <div class="subtitle_about_me">
-                  <ul>
-                    <li>Estudando desenvolvimento web através da TipsCode e de projetos pessoais e para empresas</li>
-                    <li>Desenvolvendo projetos pessoais e empresariais como os demonstrados abaixo</li>
-                  </ul>
-                </div>
+              <div class="subtitle_about_me">
+                <ul>
+                  <li>Estudante de Desenvolvimento Web e Engenharia de Produção, com projetos pessoais e empresariais como os demonstrado abaixo.</li>
+                  <li>Busco fornecer sites responsivos, eficientes e úteis para meus clientes, utilizando ferramentas como, JavaScript, BootStrap, etc.</li>
+                </ul>
+              </div>
             </section>
-            <div class="titles" style="text-align: center;">Habilidades</div>
+            <div id="title_skills" class="titles" style="text-align: center;">Habilidades</div>
             <section id="skills">
+              <div>HTML</div>
+              <div>CSS</div>
+              <div>JavaScript</div>
                 <svg xmlns="http://www.w3.org/2000/svg" width="80px" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path fill="#00D061" d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"/></svg>
                 <svg xmlns="http://www.w3.org/2000/svg" width="80px" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path fill="#00D061" d="M0 32l34.9 395.8L192 480l157.1-52.2L384 32H0zm313.1 80l-4.8 47.3L193 208.6l-.3 .1h111.5l-12.8 146.6-98.2 28.7-98.8-29.2-6.4-73.9h48.9l3.2 38.3 52.6 13.3 54.7-15.4 3.7-61.6-166.3-.5v-.1l-.2 .1-3.6-46.3L193.1 162l6.5-2.7H76.7L70.9 112h242.2z"/></svg>
                 <svg xmlns="http://www.w3.org/2000/svg" width="80px" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path fill="#00D061" d="M0 32v448h448V32H0zm243.8 349.4c0 43.6-25.6 63.5-62.9 63.5-33.7 0-53.2-17.4-63.2-38.5l34.3-20.7c6.6 11.7 12.6 21.6 27.1 21.6 13.8 0 22.6-5.4 22.6-26.5V237.7h42.1v143.7zm99.6 63.5c-39.1 0-64.4-18.6-76.7-43l34.3-19.8c9 14.7 20.8 25.6 41.5 25.6 17.4 0 28.6-8.7 28.6-20.8 0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5 0-31.6 24.1-55.6 61.6-55.6 26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18-12.3 0-20.1 7.8-20.1 18 0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2 0 37.8-29.8 58.6-69.7 58.6z"/></svg>
@@ -58,11 +61,14 @@
             <section id="projects">
                 <div class="titles">Projetos</div>
                 <a href="https://barao-das-bebidas.vercel.app/">
-                    <div class="subtitles">Projeto Barão das Bebidas</div>
+                    <div class="subtitles">Projeto Barão das Bebidas
+                      <div style="color: grey;">(Site de agendamento de chopps)</div></div>
+                    
                 </a>
                 <img class="imgs_projects" src="./img/img_home_site_barao_das_bebidas.png" alt="Site Barão das Bebidas">
                 <a href="https://lululu-app.vercel.app/">
-                    <div class="subtitles">Projeto LuLuLu App</div>
+                    <div class="subtitles">Projeto LuLuLu App
+                      <div style="color: grey;">(Site modelo para app de adoção de pets)</div></div>
                 </a>
                 <img class="imgs_projects" src="./img/img_home_site_lululu_app.png" alt="Site LuLuLu App">
             </section>

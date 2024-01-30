@@ -1,5 +1,9 @@
-:root{}
 /*Compound css*/
+:root{
+    --main-color: #00b655;
+    --sec-color: #0a0618;
+    --ter-color: #f1f1f1;
+}
 
 ol, ul {
     list-style: none;
@@ -45,11 +49,10 @@ header{
 }
 
 .subtitle_about_me{
-    margin-bottom: 2%;
     font-size: 150%;
-    color: #00D061;
-    padding: 1%;
-    text-align: justify;
+    color: var(--main-color);
+    padding: 2% 10%;
+    text-align: start;
 }
 
 /*Contact Section*/
@@ -76,17 +79,17 @@ header{
     margin: 2%;
 }
 
-/*Global*/
+/*Projects Section*/
 
 .titles{
     font-size: 200%;
-    color: #fff;
+    color: var(--sec-color);
 }
 
 .subtitles{
     margin-bottom: 2%;
     font-size: 150%;
-    color: #00D061;
+    color: var(--main-color);
     padding: 1%;
 }
 
