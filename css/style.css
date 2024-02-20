@@ -11,13 +11,13 @@ ol, ul {
 
 nav, header, main, footer{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: var(--sec-color);
 }
 
 #about_me , #projects, #contacts{
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin: 5%;
 }
 
 /*Selectors*/
@@ -83,7 +83,7 @@ header{
 
 .titles{
     font-size: 200%;
-    color: var(--sec-color);
+    color: var(--ter-color);
 }
 
 .subtitles{
