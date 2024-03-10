@@ -1,8 +1,10 @@
 /*Compound css*/
 :root{
-    --main-color: #00b655;
-    --sec-color: #0a0618;
+    --main-color: #FE7506;
+    --sec-color: #131313;
     --ter-color: #f1f1f1;
+    --four-color: rgb(128, 128, 128);
+    --hover-main-color: #be5703;
 }
 
 ol, ul {
@@ -23,7 +25,7 @@ nav, header, main, footer{
 /*Selectors*/
 
 h1 {
-    margin-left: 5%;
+    margin-left: 20%;
 }
 
 a:link{
@@ -50,7 +52,7 @@ header{
 
 .subtitle_about_me{
     font-size: 150%;
-    color: var(--main-color);
+    color: var(--ter-color);
     padding: 2% 10%;
     text-align: start;
 }
@@ -79,11 +81,15 @@ header{
     margin: 2%;
 }
 
+#skills div{
+    color: var(--ter-color);
+}
+
 /*Projects Section*/
 
 .titles{
     font-size: 200%;
-    color: var(--ter-color);
+    color: var(--four-color);
 }
 
 .subtitles{
@@ -94,7 +100,7 @@ header{
 }
 
 .subtitles:hover{
-    color: grey;
+    color: var(--hover-main-color);
 }
 
 /*Projects Section*/
@@ -103,5 +109,5 @@ header{
     margin-bottom: 1%;
     width: 80%;
     align-self: center;
-    border-radius: 2%;
+    border-radius: 0.5rem;
 }
