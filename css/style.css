@@ -1,10 +1,10 @@
 /*Compound css*/
 :root{
-    --main-color: #FE7506;
+    --main-color: #00BF63;
     --sec-color: #131313;
     --ter-color: #f1f1f1;
     --four-color: rgb(128, 128, 128);
-    --hover-main-color: #be5703;
+    --hover-main-color: #03723c;
 }
 
 ol, ul {
