@@ -1,10 +1,10 @@
 /*Compound css*/
 :root{
-    --main-color: #00BF63;
+    --main-color: #C1FF00;
     --sec-color: #131313;
     --ter-color: #f1f1f1;
     --four-color: rgb(128, 128, 128);
-    --hover-main-color: #03723c;
+    --hover-main-color: #4bb102;
 }
 
 ol, ul {
@@ -73,16 +73,21 @@ header{
 /*Skills Section*/
 
 #skills{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 20% 80%;
-    justify-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
     margin: 2%;
 }
 
 #skills div{
     color: var(--ter-color);
+}
+
+#skills svg{
+    margin: 20px;
 }
 
 /*Projects Section*/
@@ -106,7 +111,7 @@ header{
 /*Projects Section*/
 
 .imgs_projects{
-    margin-bottom: 1%;
+    margin-bottom: 10%;
     width: 80%;
     align-self: center;
     border-radius: 0.5rem;
