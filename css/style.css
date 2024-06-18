@@ -115,4 +115,12 @@ header{
     width: 80%;
     align-self: center;
     border-radius: 0.5rem;
+    filter: grayscale(1);
+    transition: 0.5s;
+    animation: ease-in-out;
+}
+
+
+.imgs_projects:hover{
+    filter: grayscale(0);
 }
