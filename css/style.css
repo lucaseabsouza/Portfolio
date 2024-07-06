@@ -67,7 +67,7 @@ header{
 }
 
 .icons{
-    margin: 2%;
+    margin: 2rem;
 }
 
 /*Skills Section*/
@@ -79,7 +79,6 @@ header{
     flex-wrap: wrap;
     align-items: start;
     justify-content: center;
-    margin: 2%;
 }
 
 #skills div{
@@ -87,7 +86,7 @@ header{
 }
 
 #skills svg{
-    margin: 20px;
+    margin: 2rem;
 }
 
 /*Projects Section*/
@@ -98,7 +97,6 @@ header{
 }
 
 .subtitles{
-    margin-bottom: 2%;
     font-size: 150%;
     color: var(--main-color);
     padding: 1%;
@@ -115,7 +113,6 @@ header{
 /*Projects Section*/
 
 .imgs_projects{
-    margin-bottom: 10%;
     width: 60%;
     align-self: center;
     border-radius: 0.5rem;
