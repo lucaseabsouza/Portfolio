@@ -60,7 +60,6 @@ header{
 }
 
 /*Contact Section*/
-
 .ico_social_media{
     display: flex;
     flex-direction: row;
@@ -85,10 +84,11 @@ header{
 
 #skills div{
     color: var(--ter-color);
+    padding: 0.5rem;
 }
 
 #skills svg{
-    margin: 0.5rem 1.5rem 1.5rem 0.5rem;
+    margin: 0.5rem;
 }
 
 /*Projects Section*/
