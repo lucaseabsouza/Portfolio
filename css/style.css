@@ -110,10 +110,6 @@ header{
     font-size: 1rem;
 }
 
-.titles:hover{
-    color: var(--hover-main-color);
-}
-
 /*Projects Section*/
 
 .imgs_projects{
