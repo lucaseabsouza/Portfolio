@@ -116,9 +116,6 @@ header{
     width: 60%;
     align-self: center;
     border-radius: 0.5rem;
-    filter: grayscale(1);
-    transition: 0.5s;
-    animation: ease-in-out;
 }
 
 
